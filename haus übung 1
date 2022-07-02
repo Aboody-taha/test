@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">    .header {
+        bottom: 40px;
+    }
+    
+    .demo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: burlywood;
+        height: 40vh;
+        background-image: "logo.png";
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+    
+    .text {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        background-color: brown;
+        height: 40px;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    .ab {
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+        background-position: center;
+        left: 40px;
+        right: 60;
+        align-items: center;
+    }
+    
+    .ad {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .n3 {
+        background-position: center;
+        width: 0px;
+        margin: auto;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        gap: 10px;
+        column-gap: 30px;
+        row-gap: 40px;
+    }
+    
+    .n4 {
+        background-position: center;
+        background-size: cover;
+        background-color: bisque;
+        margin: auto;
+        display: grid;
+    }
+    
+    .n7 {
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 10px;
+        padding: auto;
+        border: 3px;
+        display: grid;
+        gap: 2px;
+        grid-template-columns: auto;
+        grid-template-rows: 4px;
+    }
+    
+    .one {
+        left: 30px;
+    }
+    
+    .two {}
+    
+    .n4 {
+        background-color: bisque;
+        background-position: center;
+    }
+    
+    .n4 img {
+        display: inline;
+        background-position: center;
+        margin: auto;
+    }
+    
+    .n4 h3 {
+        display: inline;
+        margin: auto;
+    }
+    
+    .abod {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sa {
+        display: flex;
+        justify-content: center;
+    }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>aufgabe 1</title>
+
+</head>
+
+<body>
+
+    <div class="abood">
+
+        <h1 class="header">Abdulrahman Taha</h1>
+        <div class="demo">
+            <img src="logo.png" alt="none" width="300px">
+        </div>
+        <h1>Abdulrahman Taha</h1>
+
+
+        <ul class="text">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About me</li>
+            <li>Contact</li>
+
+        </ul>
+
+        <div class="ab">
+            This is my first website:D
+        </div>
+        <br>
+        <div class="ad">
+            <img src="Phone.png" alt="none" width="600px" height="400px">
+        </div>
+        <div class="sa">
+            <h3>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</h3>
+        </div>
+
+        <div class="abod">
+            <img class="one" src="Debit_card_ATM.jpg" alt="none" width="300px">
+            <img class="tow" src="Taxify-Scooters.jpg" alt="none" width="300px">
+        </div>
+
+        <div class="n7">-
+            <h2>Polise are investigating three ATM explosions ub two Florida counties</h2>
+            <h2>E-scooter firm Bolt pulls out of 12 cities</h2>
+        </div>
+        <br>
+        <div class="n4">
+            <img src="logo.png" alt="none" width="300px">
+            <h3>Abdulrahman-codeFactory 2022</h3>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
