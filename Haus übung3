@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="abood">
+        <div class="p1">
+            <div>RESTAURANT ABOOD</div>
+        </div>
+        <div class="p2">
+            <img src="abood.jpeg" alt="" height="190px">
+        </div>
+        <div class="p3 ">
+            <h1>Starters</h1>
+        </div>
+        <div class="p4 ">
+            <div class="a1 "><img src="salat.jpg" alt="" width="253,25px" height="146,4px">Salat</div>
+            <div class="a2 "><img src="homos.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="a3 "><img src="foll.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="a4 "><img src="adas.jpeg" alt="" width="253,25px" height="146,4px"></div>
+        </div>
+        <div class="p5 ">
+            <h1>Main Course</h1>
+        </div>
+        <div class="p6 ">
+            <div class="b1 "><img src="shawarma.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="b2 "><img src="brost.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="b3 "><img src="mshui.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="b4 "><img src="makarona.jpeg" alt="" width="253,25px" height="146,4px"></div>
+        </div>
+        <div class="p7 ">
+            <h1>Desserts</h1>
+        </div>
+        <div class="p8 ">
+            <div class="c1 "><img src="kunafa.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="c2 "><img src="baklava.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <div class="c3 "><img src="halawa.jpeg" alt="" width="253,25px" height="146,4px"></div>
+            <di class="c4 "><img src="hrisa.jpeg" alt="" width="253,25px" height="146,4px"></div>
+    </div>
+    <div class="p9 ">
+        <h1>Beverages</h1>
+    </div>
+    <div class="p10 ">
+        <div class="d1 "><img src="cola.jpg" alt="" width="253,25px" height="146,4px"></div>
+        <div class="d2 "><img src="saft .jpeg" alt="" width="253,25px" height="146,4px"></div>
+        <div class="d3 "><img src="drink .jpeg" alt="" width="253,25px" height="146,4px"></div>
+        <div class="d4 "><img src="tee.jpeg" alt="" width="253,25px" height="146,4px"></div>
+    </div>
+    <div class="ab1 ">
+        <div>ABOOD RESTAURANT</div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+    .abood {
+        background: url(paris-01.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: bisque;
+    }
+    
+    .p1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: aqua;
+        height: 50px;
+        align-items: center;
+        
+    }
+    
+    .p2 {
+        display: flex;
+        background-color: rgb(204, 202, 202);
+        height: auto;
+        justify-content: space-around;
+        background-size: cover;
+    }
+    
+    .p3 {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    
+    .p4 {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(1, 20vh);
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+    
+    .a1 {
+        background-color: rgb(101, 106, 106);
+        width: 253px;
+        height: 146px;
+    }
+    
+    .a2 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .a3 {}
+    
+    .a4 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .p5 {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    
+    .p6 {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(1, 20vh);
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+    
+    .b1 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .b2 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .b3 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .b4 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .p7 {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    
+    .p8 {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(1, 20vh);
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+    
+    .c1 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .c2 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .c3 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .c4 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .p9 {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    
+    .p10 {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(1, 20vh);
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+    
+    .d1 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .d2 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .d3 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .d4 {
+        background-color: rgb(101, 106, 106);
+    }
+    
+    .ab1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: aqua;
+        height: 90px;
+        align-items: center;
+    }
+
