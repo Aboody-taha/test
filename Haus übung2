@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="a">
+
+        <div class="a1">
+            <img src="banner-1.png" alt="" height="75px" width="700">
+        </div>
+        <img class="a2" src="logo-newspaper-cf.png" alt="">
+    </div>
+    <ul class="b">
+        <li>Home</li>
+        <li>Tech </li>
+        <li>Culture</li>
+        <li> video</li>
+    </ul>
+
+
+    <h3 class="d">Friday,26.02.22</h3>
+    <h2 class="e">Top News</h2>
+
+
+    <div class="a1">
+        <img class="b1" src="jeff.png" alt="" width="190px" height="130px">
+        <img class="b2" src="eu.png" alt="" width="190px" height="130px">
+        <img class="b3" src="phone.png" alt="" width="190px" height="130px">
+    </div>
+
+
+    <h2 class="f">Popular</h2>
+    <div class="a2">
+        <img class="b4" src="iphone.png" alt="" width="190px" height="130px">
+        <img class="b5" src="one.png" alt="" width="190px" height="130px">
+        <img class="b6" src="musk.jpg" alt="" width="190px" height="130px">
+
+    </div>
+    <h1 class="h"> How to become a developer? </h1>
+    <div class="a3">
+        <img class="b7" src="polar.png" alt="" width="190px" height="80px">
+        <img class="b8" src="nasa.png" alt="" width="190px" height="80px">
+        <img class="b9" src="smart.png" alt="" width="190px" height="80px">
+        <img class="b10" src="snowden.jpg" alt="" width="190px" height="80px">
+    </div>
+    <ul class="c1">
+        <li>Home</li>
+        <li>Tech </li>
+        <li>Culture</li>
+        <li> video</li>
+    </ul>
+    <div class="c2">.a {
+    background-color: rgb(84, 8, 8);
+    display: flex;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 120vh);
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 50px;
+}
+
+.e {
+    background-color: slategray;
+    display: grid;
+    grid-template-columns: auto;
+    height: 30px;
+    margin-top: auto;
+    padding: auto;
+}
+
+.a1 {
+    display: grid;
+    grid-template-columns: repeat(3, 20rh);
+    grid-template-rows: repeat(3, 20vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b1 {
+    margin: 30px;
+}
+
+.b2 {
+    margin: 30px;
+}
+
+.b3 {
+    margin: 30px;
+}
+
+.f {
+    background-color: slategray;
+    display: grid;
+    grid-template-columns: auto;
+    height: 30px;
+    margin-top: auto;
+    padding: auto;
+}
+
+.a2 {
+    display: grid;
+    grid-template-columns: repeat(3, 20rh);
+    grid-template-rows: repeat(3, 20vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b4 {
+    margin: 30px;
+}
+
+.b5 {
+    margin: 30px;
+}
+
+.b6 {
+    margin: 30px;
+}
+
+.h {
+    background-color: slategray;
+    display: grid;
+    grid-template-columns: auto;
+    height: 50px;
+    margin-top: auto;
+    padding: auto;
+}
+
+.a3 {
+    display: grid;
+    grid-template-columns: repeat(3, 20rh);
+    grid-template-rows: repeat(3, 20vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b7 {
+    margin: 30px;
+}
+
+.b8 {
+    margin: 30px;
+}
+
+.b9 {
+    margin: 30px;
+}
+
+.b10 {
+    margin: 30px;
+}
+
+.b {
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    margin-top: auto;
+}
+
+.d {
+    margin: 0px;
+    left: 80px;
+}
+
+.c1 {
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    margin-bottom: auto;
+}
+
+.c2 {
+    background-color: rgb(84, 8, 8);
+    display: flex;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 120vh);
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 50px;
+}
+
+.c4 {
+    display: grid;
+    grid-template-columns: repeat(3, 20rh);
+    grid-template-rows: repeat(3, 20vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c5 {
+    color: aliceblue;
+}
+        <img class="c4" src="logo-newspaper-cf.png" alt="">
+        <div class="c5">Abood-codeFactory 2022</div>
+    </div>
+
+</body>
+
+</html>
